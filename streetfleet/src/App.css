@@ -1,0 +1,86 @@
+.App {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2, h3 {
+  color: #178FE7;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App .btn, .Modals .btn {
+  background-image: none;
+  box-shadow: 2px 3px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+  background-color: #178FE7;
+  text-shadow: none;
+  color: #fff;
+  font-weight: 200;
+  text-shadow: none;
+  padding: 6px 25px;
+  font-size: 14px;
+}
+
+.App .btn:hover, .Modals .btn:hover {
+  color: #fff;
+  background-color: #0a76c5;
+}
+
+.App .btn:focus , .Modals .btn:focus {
+  outline: none;
+}
+
+.App .cancel, .Modals .cancel {
+  background-color: #c1c1c1;
+}
+
+.App .cancel:hover, .Modals .cancel:hover {
+  background-color: #b1b1b1;
+}
+
+.No-Link {
+  pointer-events: none;
+  cursor: default;
+}
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.WhiteContainer {
+  text-align: left;
+  margin: 20px 0;
+  background-color: #fff;
+  color: #d6d6d6;
+  padding: 20px 30px;
+  box-shadow: 2px 5px 25px rgba(0,0,0,.25);
+  z-index: 1;
+}

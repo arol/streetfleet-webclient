@@ -1,0 +1,62 @@
+.navbar {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border: none;
+}
+.navbar .container {
+  margin: 0 auto;
+  padding: 0px 65px;
+}
+
+.navbar .caret {
+  display: none;
+}
+
+.navbar-nav li a {
+  color: #fff!important;
+}
+.navbar-brand {
+  padding-top: 14px;
+  height: auto;
+}
+
+.sf-logo { height: 45px; }
+
+.navbar-right {
+  padding-top: 10px;
+  height: auto;
+  font-size: 16px;
+}
+
+.dropdown .fa-bars:hover {
+  color: #D1D1D1;
+}
+
+.navbar-right .open a {
+  background-color: #fff !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.UserName {
+  color: #fff;
+  padding-top: 15px;
+  padding-right: 0;
+  cursor: default;
+}
+
+.navbar .dropdown { font-size: 1.5em; }
+
+.dropdown-menu li a {
+  color: #7e7e7e !important;
+  padding: 7px 12px;
+  background: none !important;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #dcdcdc !important;
+  cursor: pointer;
+}
+
+.divider { margin: 0 !important; }

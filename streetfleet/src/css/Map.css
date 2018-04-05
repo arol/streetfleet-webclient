@@ -1,0 +1,47 @@
+.MapView {
+  margin-left: 8%;
+  padding: 0;
+}
+
+.VehicleView {
+  margin: 0;
+  padding: 0;
+}
+
+.VehicleModal {
+  background-color: white;
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.25);
+  padding: 5px 25px;
+  height: 80vh;
+}
+
+.VehicleModal h2 {
+  font-size: 3em;
+}
+
+.VehicleModal li {
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 1px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+}
+
+.VehicleList {
+  padding-left: 0;
+}
+
+.vColor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vInfo {
+  display: inline-block;
+  line-height: 2.5;
+  margin-left: 10px;
+}
